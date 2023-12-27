@@ -1,0 +1,107 @@
+/* Left Side */
+.services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 100vh;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+
+.service-about {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.service-about> :nth-child(1) {
+  color: var(--Black);
+  font-size: var(--p-40);
+  font-weight: var(--fw-400);
+}
+
+.service-about> :nth-child(2) {
+  color: var(--Primary);
+  font-size: var(--p-40);
+  font-weight: var(--fw-400);
+}
+
+.service-about> :nth-child(3) {
+  color: var(--gray);
+  font-size: var(--p-14);
+  margin-top: 1rem;
+}
+
+.hire-button {
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border: none;
+  color: var(--White);
+  padding: 8px 20px 8px 20px;
+  background: linear-gradient(to right, #007580, #e7bc3c);
+  box-shadow: 0px 15px 20px 2px rgba(0, 117, 128, 0.42);
+  font-size: var(--p-18);
+  word-spacing: 3px;
+}
+
+.hire-button:hover {
+  background: var(--White);
+  color: var(--Primary);
+  cursor: pointer;
+  border: 1px solid var(--Primary);
+}
+
+/* blur */
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  z-index: -9;
+  left: -9rem;
+  top: 17rem;
+  filter: blur(72px);
+}
+
+.s-blur2 {
+  left: 14rem;
+  top: 8rem;
+}
+
+.s-blur1 {
+  top: 27rem;
+  left: 7rem;
+}
+
+
+/* Right Side */
+
+.service-cards {
+  position: relative;
+}
+
+.service-cards>* {
+  position: absolute;
+}
+
+@media screen and (max-width: 480px),
+(max-width: 1200px) {
+  .services {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 80rem;
+    padding: 0;
+  }
+
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20rem;
+    align-self: center;
+  }
+
+  .service-cards>* {
+    position: static;
+  }
+}

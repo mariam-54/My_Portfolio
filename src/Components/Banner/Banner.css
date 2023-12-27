@@ -1,0 +1,127 @@
+.home {
+    position: relative;
+    border-bottom: 8px solid var(--Primary);
+}
+
+.section {
+    padding-block: 5rem 1rem;
+}
+
+.home-rectangle {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 2px rgba(0, 117, 128, 0.42);
+    background-color: var(--Primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home-container {
+    padding-block: 1rem 3rem;
+}
+
+.perfil {
+    width: 250px;
+    height: 250px;
+    background-color: var(--White);
+    border: 8px solid var(--Primary);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: background-color .4s;
+}
+
+.home-perfil {
+    justify-self: center;
+}
+
+.perfil-content {
+    width: 200px;
+    height: 200px;
+    border: 10px solid var(--Primary);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(to right, #007580, #e7bc3c);
+}
+
+.perfil-img {
+    width: 150px;
+    height: 170px;
+}
+
+.home-data {
+    row-gap: .75rem;
+    text-align: center;
+}
+
+.home-intro {
+    font-size: var(--h2-46);
+    margin-bottom: 20px;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.txt-rotate>.wrap {
+    border-right: 0.08em solid var(--Primary);
+}
+
+.home-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.home-social-link {
+    font-size: 1.5rem;
+    color: var(--Primary);
+    transition: color .4s;
+}
+
+.home-social-link:hover {
+    color: var(--Secondary-2);
+}
+
+.home-button {
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border: none;
+    color: var(--White);
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(to right, #007580, #e7bc3c);
+    box-shadow: 0px 15px 20px 2px rgba(0, 117, 128, 0.42);
+    font-size: var(--p-18);
+    word-spacing: 3px;
+}
+
+.home-button:hover {
+    background: var(--White);
+    color: var(--Primary);
+    cursor: pointer;
+    border: 1px solid var(--Primary);
+}
+
+@media screen and (max-width: 768px) {
+    .home-button {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+}

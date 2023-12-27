@@ -1,0 +1,31 @@
+.card {
+    width: 20rem;
+    height: 18rem;
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.26);
+    border: 5px solid var(--Primary);
+    box-shadow: var(--boxShadow);
+    border-radius: 25px;
+    padding: 25px 26px 2rem 26px;
+}
+
+.card span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: var(--p-16);
+}
+
+.card-button {
+    margin-top: -18px;
+    background-color: var(--White);
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-size: var(--p-16);
+    color: var(--Secondary-1);
+    font-weight: var(--fw-400);
+}

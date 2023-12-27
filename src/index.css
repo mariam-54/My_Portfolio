@@ -1,13 +1,117 @@
-body {
+@import url("https://fonts.cdnfonts.com/css/gumela");
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Gumela", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+body {
+  font-family: "Gumela", sans-serif;
+}
+
+:root {
+  /* Colors */
+  --Primary: #007580;
+  --Secondary-1: #fed049;
+  --Secondary-2: #86bdc3;
+  --White: #ffffff;
+  --Black: #000000;
+  --gray: #9196a5;
+  --purple: rgb(238 210 255);
+
+  /* font-weight */
+  --fw-400: 400;
+  --fw-600: 600;
+
+  /* typography */
+  --h1-48: 48px;
+  --h1-50: 50px;
+  --h1-52: 52px;
+  --h1-54: 54px;
+  --h1-56: 56px;
+  --h1-58: 58px;
+  --h1-60: 60px;
+
+  --h2-25: 25px;
+  --h2-34: 34px;
+  --h2-36: 36px;
+  --h2-38: 38px;
+  --h2-40: 40px;
+  --h2-42: 42px;
+  --h2-44: 44px;
+  --h2-46: 46px;
+  --h2-48: 48px;
+  --h2-50: 50px;
+
+  --h4-18: 18px;
+  --h4-20: 20px;
+  --h4-22: 22px;
+
+  --p-12: 12px;
+  --p-14: 14px;
+  --p-16: 16px;
+  --p-18: 18px;
+  --p-20: 20px;
+  --p-22: 22px;
+  --p-24: 24px;
+  --p-40: 40px;
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+}
+
+.scroll2Top {
+  all: unset;
+  color: #86bdc3;
+  font-size: 35px;
+  position: fixed;
+  bottom: 2rem;
+  right: 3%;
+}
+
+.scroll2Top:hover {
+  color: #0c383d;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #007580;
+  box-shadow: inset 0 0 2.5px 2px rgba(134, 189, 195, 0.5);
+  border-radius: 3px;
+
+  background-image: linear-gradient(to left, #007580, #e7bc3c);
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to left, #007580, #e7bc3c);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(#007580, #e7bc3c);
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.5rem 1rem;
+  }
 }

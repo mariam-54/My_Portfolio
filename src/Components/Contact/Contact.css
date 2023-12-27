@@ -1,0 +1,97 @@
+.contact-form {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 80vh;
+  margin-top: 4rem;
+  padding-top: 3rem;
+}
+
+.contact-right-side {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.contact-right-side>form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  align-items: center;
+
+}
+
+.contact-right-side .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.5em;
+  outline: none;
+  border: 2px solid var(--Primary);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 7rem !important;
+}
+
+.contact-button {
+  background: linear-gradient(to right, #007580, #e7bc3c);
+  box-shadow: 0px 15px 20px 2px rgba(0, 117, 128, 0.42);
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: var(--fw-400);
+  padding: 11px 26px 11px 26px;
+}
+
+.contact-button:hover {
+  background: white;
+  cursor: pointer !important;
+  border: 1px solid var(--Primary);
+  color: var(--Primary);
+}
+
+.contact-button:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+/* blur */
+.contact-blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  z-index: -9;
+  filter: blur(72px);
+}
+
+
+
+.contact-blur1 {
+  left: 30rem;
+}
+
+.contact-blur2 {
+  left: 27rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact-form {
+    padding: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 30rem;
+  }
+
+  .contact-right-side .user {
+    width: 15rem;
+  }
+
+  .contact-left-side {
+    display: none;
+  }
+}
