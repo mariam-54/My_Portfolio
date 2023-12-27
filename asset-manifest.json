@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio/static/css/main.32ce34cf.css",
+    "main.js": "/My_Portfolio/static/js/main.b45bcc94.js",
+    "static/js/787.2dcca737.chunk.js": "/My_Portfolio/static/js/787.2dcca737.chunk.js",
+    "static/media/javascript_intermediate certificate.jpg": "/My_Portfolio/static/media/javascript_intermediate certificate.bf1686d944ccff9e5ff9.jpg",
+    "static/media/javascript_basic certificate.jpg": "/My_Portfolio/static/media/javascript_basic certificate.0210787206464071da52.jpg",
+    "static/media/css certificate.jpg": "/My_Portfolio/static/media/css certificate.49f749878ebdfdbed116.jpg",
+    "static/media/sql_basic certificate.jpg": "/My_Portfolio/static/media/sql_basic certificate.3938e2f1d9c9d5fa581a.jpg",
+    "static/media/Project3.PNG": "/My_Portfolio/static/media/Project3.e391840438e5184561ec.PNG",
+    "static/media/project2.png": "/My_Portfolio/static/media/project2.2ff5cbce3b8f47ed8e03.png",
+    "static/media/Project7.PNG": "/My_Portfolio/static/media/Project7.9d209cffc58fd52e70d9.PNG",
+    "static/media/maryam.png": "/My_Portfolio/static/media/maryam.f8bb08ab515bf2d4ea68.png",
+    "static/media/Project4.PNG": "/My_Portfolio/static/media/Project4.2cb290b382fa30f0da4b.PNG",
+    "static/media/Project1.PNG": "/My_Portfolio/static/media/Project1.5920fe1695705d6d50fd.PNG",
+    "static/media/data.jpg": "/My_Portfolio/static/media/data.156d036e662a2ca88c3e.jpg",
+    "static/media/python.jpg": "/My_Portfolio/static/media/python.748bb6e129a0e5e81b10.jpg",
+    "static/media/sef.jpg": "/My_Portfolio/static/media/sef.c3f5435cb37b5a497b02.jpg",
+    "static/media/Project6.PNG": "/My_Portfolio/static/media/Project6.76212ce94b63f5feef5b.PNG",
+    "static/media/Project5.PNG": "/My_Portfolio/static/media/Project5.8ac31621eb9e8fc439a6.PNG",
+    "static/media/Resume.pdf": "/My_Portfolio/static/media/Resume.1d67bc953c494b5fc824.pdf",
+    "static/media/Project8.JPG": "/My_Portfolio/static/media/Project8.3bf0455162cd29054cab.JPG",
+    "static/media/code.png": "/My_Portfolio/static/media/code.c6816c3cf0e3e6ababbe.png",
+    "static/media/adobe.png": "/My_Portfolio/static/media/adobe.901ebbec23d4b4700325.png",
+    "static/media/wave.png": "/My_Portfolio/static/media/wave.b9e03c55d4a58eca0455.png",
+    "index.html": "/My_Portfolio/index.html",
+    "main.32ce34cf.css.map": "/My_Portfolio/static/css/main.32ce34cf.css.map",
+    "main.b45bcc94.js.map": "/My_Portfolio/static/js/main.b45bcc94.js.map",
+    "787.2dcca737.chunk.js.map": "/My_Portfolio/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32ce34cf.css",
+    "static/js/main.b45bcc94.js"
+  ]
+}
