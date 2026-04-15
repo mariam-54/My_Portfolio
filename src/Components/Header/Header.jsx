@@ -37,6 +37,28 @@ const Header = () => {
             </Link>
             <Link
               spy={true}
+              to="About"
+              smooth={true}
+              className="nav-link"
+              style={{
+                color: darkMode ? "white" : "",
+              }}
+            >
+              About
+            </Link>
+            <Link
+              spy={true}
+              to="Education"
+              smooth={true}
+              className="nav-link"
+              style={{
+                color: darkMode ? "white" : "",
+              }}
+            >
+              Education
+            </Link>
+              <Link
+              spy={true}
               to="Services"
               smooth={true}
               className="nav-link"
@@ -46,6 +68,20 @@ const Header = () => {
             >
               Services
             </Link>
+            
+            <Link
+              spy={true}
+              to="Skills"
+              smooth={true}
+              className="nav-link"
+              style={{
+                color: darkMode ? "white" : "",
+              }}
+            >
+              Skills
+            </Link>
+          
+          
             <Link
               spy={true}
               to="Portfolio"
@@ -67,6 +103,28 @@ const Header = () => {
               }}
             >
               Certificates
+            </Link>
+            <Link
+              spy={true}
+              to="Testimonials"
+              smooth={true}
+              className="nav-link"
+              style={{
+                color: darkMode ? "white" : "",
+              }}
+            >
+              Testimonials
+            </Link>
+            <Link
+              spy={true}
+              to="Achievements"
+              smooth={true}
+              className="nav-link"
+              style={{
+                color: darkMode ? "white" : "",
+              }}
+            >
+              Achievements
             </Link>
           </Nav>
           <Nav>

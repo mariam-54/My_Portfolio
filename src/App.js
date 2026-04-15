@@ -4,9 +4,15 @@ import { useContext, useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Banner from "./Components/Banner/Banner";
+import About from "./Components/About/About";
+import Education from "./Components/Education/Education";
+import Skills from "./Components/Skills/Skills";
+import Experience from "./Components/Experience/Experience";
 import Services from "./Components/Servises/Services";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Certificate from "./Components/Certificate/Certificate";
+import Testimonials from "./Components/Testimonials/Testimonials";
+import Achievements from "./Components/Achievements/Achievements";
 import { FaCircleArrowUp } from "react-icons/fa6";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
@@ -32,14 +38,22 @@ function App() {
       style={{
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
+        "--text-color": darkMode ? "#ffffff" : "#000000",
       }}
     >
       <BrowserRouter>
         <Header />
         <Banner />
-        <Services />
+        <About />
+        <Education />
+         <Services />
+         <Experience />
+        <Skills />
+       
         <Portfolio />
         <Certificate />
+        <Testimonials />
+        <Achievements />
         <Contact />
         <Footer />
 

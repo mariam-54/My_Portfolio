@@ -14,7 +14,7 @@
 }
 
 .service-about> :nth-child(1) {
-  color: var(--Black);
+  color: var(--text-color);
   font-size: var(--p-40);
   font-weight: var(--fw-400);
 }

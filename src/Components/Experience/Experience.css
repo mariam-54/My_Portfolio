@@ -1,0 +1,51 @@
+.experience {
+  padding: 0 3rem 0 3rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 6rem;
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.experience-header span {
+  color: var(--text-color);
+  font-size: var(--p-40);
+  font-weight: var(--fw-400);
+}
+
+.experience-header h2 {
+  color: var(--Primary);
+  font-size: var(--h1-48);
+  font-weight: var(--fw-600);
+  margin-top: 1rem;
+}
+
+.experience-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+@media screen and (max-width: 480px),
+(max-width: 1200px) {
+  .experience {
+    padding: 0 1rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  .experience-cards {
+    grid-template-columns: 1fr;
+  }
+}
